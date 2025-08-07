@@ -1,0 +1,46 @@
+[
+    {
+        "date": "2025-08-08",
+        "description": "Salary",
+        "amount": 35000,
+        "type": "Income",
+        "account": "main"
+    },
+    {
+        "date": "2025-08-08",
+        "description": "Groceries",
+        "amount": -150,
+        "type": "Expense",
+        "account": "main"
+    },
+    {
+        "date": "2025-08-02",
+        "description": "Rent payment",
+        "amount": -1200.00,
+        "type": "Expense",
+        "account": "main"
+    },
+    {
+        "date": "2025-08-03",
+        "description": "Dinner with friends",
+        "amount": -30,
+        "type": "Expense",
+        "account": "main"
+    },  
+    {
+        "date": "2025-08-04",
+        "description": "Netflix Subscription",
+        "category": "Entertainment",
+        "amount": -10.99,
+        "type": "Expense",
+        "account": "Main"
+    },
+    {
+        "date": "2025-08-05",
+        "description": "Train to work",
+        "category": "Transport",
+        "amount": -5.60,
+        "type": "Expense",
+        "account": "Main"
+    }
+]
