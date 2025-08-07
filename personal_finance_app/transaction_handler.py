@@ -14,12 +14,13 @@ def load_transactions():
     return pd.DataFrame(data)
 
 def save_transaction(transaction):
+    # Load existing
     if os.path.exists(JSON_FILE):
         with open(JSON_FILE, "r") as f:
             data = json.load(f)
     else:
         data = []
-    
+
     data.append(transaction)
 
     with open(JSON_FILE, "w") as f:
