@@ -2,6 +2,7 @@
     {
         "date": "2025-08-08",
         "description": "Salary",
+        "category": "Income",
         "amount": 35000,
         "type": "Income",
         "account": "main"
@@ -9,6 +10,7 @@
     {
         "date": "2025-08-08",
         "description": "Groceries",
+        "category": "food",
         "amount": -150,
         "type": "Expense",
         "account": "main"
@@ -23,6 +25,7 @@
     {
         "date": "2025-08-03",
         "description": "Dinner with friends",
+        "category": "socialising",
         "amount": -30,
         "type": "Expense",
         "account": "main"
