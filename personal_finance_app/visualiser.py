@@ -18,21 +18,21 @@ def plot_balance_over_time(df):
     plt.grid(True)
     plt.tight_layout()
     plt.show()
-
-    def plot_spending_by_category(df):
-        if df.empty:
-            print("No transactions to display")
-            return
-        expenses = df[df["ammount"] < 0]
-        category_totals = expenses.groupby("category")["amount"].sum().abs()
+    
+def plot_spending_by_category(df):
+    if df.empty:
+        print("No transactions to display")
+        return
+    expenses = df[df["ammount"] < 0]
+    category_totals = expenses.groupby("category")["amount"].sum().abs()
         
-        if category_totals.empty:
-            print("No expenses are available")
-            return
+    if category_totals.empty:
+        print("No expenses are available")
+        return
         
-        category_totals.plot(kind="bar", figsize=(8,40))
-        plt.title("spending by category")
-        plt.xlabel("category")
-        plt.ylabel("Amount spent (£)")
-        plt.tight_layout()
-        plt.show()
+    category_totals.plot(kind="bar", figsize=(8,40))
+    plt.title("spending by category")
+    plt.xlabel("category")
+    plt.ylabel("Amount spent (£)")
+    plt.tight_layout()
+    plt.show()
