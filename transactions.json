@@ -6,5 +6,13 @@
         "amount": -20.0,
         "type": "Expense",
         "account": "main"
+    },
+    {
+        "date": "2025-09-01",
+        "description": "rent payment",
+        "category": "bills",
+        "amount": -1200.0,
+        "type": "Expense",
+        "account": "main"
     }
 ]
