@@ -1,0 +1,7 @@
+date,description,amount,type,account,category
+2025-08-01,Salary,3500,Income,Main,Income
+2025-08-02,Rent payment,-1200,Expense,Main,Rent
+2025-08-03,Dinner with friends,-30,Expense,Main,Food
+2025-08-04,Netflix Subscription,-10.99,Expense,Main,Entertainment
+2025-08-05,Train to work,-5.60,Expense,Main,Transport
+2025-08-08,Groceries,-150,Expense,Main,Groceries
