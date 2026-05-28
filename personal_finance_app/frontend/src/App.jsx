@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Personal Finance Tracker</h1>
+      <h1>StudlyFinance</h1>
     </div>
   );
 }
