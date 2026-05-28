@@ -6,7 +6,7 @@ function Sidebar() {
 
       {/* Logo */}
       <h1 className="text-2xl font-bold text-green-500 mb-10">
-        StudlFinance
+        StudlyFinance
       </h1>
 
       {/* Navigation */}
