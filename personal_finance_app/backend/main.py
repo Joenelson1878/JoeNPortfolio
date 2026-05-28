@@ -1,5 +1,5 @@
-from transaction_handler import add_transaction, load_transactions
-from visualiser import plot_balance_over_time, plot_spending_by_category
+from backend.transaction_handler import add_transaction, load_transactions
+from backend.visualiser import plot_balance_over_time, plot_spending_by_category
 
 def main():
     while True:
