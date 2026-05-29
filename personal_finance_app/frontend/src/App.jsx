@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>StudlFinance</h1>
+      <h1>StudlyFinance</h1>
       <p>React is working!</p>
     </div>
   );
