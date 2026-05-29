@@ -12,10 +12,6 @@ function App() {
       {/* Sidebar stays always visible */}
       <Sidebar />
 
-      <div className="flex-1 p-6">
-        <h1>App is working</h1>
-      </div>
-      
       {/* Page content changes here */}
       <div className="flex-1 p-6 bg-gray-50 min-h-screen">
         <Routes>
