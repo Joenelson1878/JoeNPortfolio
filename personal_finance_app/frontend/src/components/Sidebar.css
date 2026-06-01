@@ -1,0 +1,30 @@
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: floralwhite;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid black;
+    height: 70px;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a,
+.nav-auth a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-auth a:hover {
+    color:  #007bff;
+}
