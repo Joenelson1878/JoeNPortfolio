@@ -4,6 +4,9 @@
     align-items: center;
     background-color: floralwhite;
     padding: 1rem 2rem;
+    border-top: black;
+    border-left: black;
+    border-right: black;
     border-bottom: 1px solid black;
     height: 70px;
 }
