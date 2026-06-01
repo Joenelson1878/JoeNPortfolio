@@ -3,13 +3,11 @@ import hero from "./components/hero";
 
 function App() {
   return (
-    <>
+    <div>
       <Sidebar />
-      <hero />
-      <main>
-        <h1>Welcome to StudlyFinance</h1>
-      </main>
-    </>
+      <Hero />
+
+    </div>
   );
 }
 
