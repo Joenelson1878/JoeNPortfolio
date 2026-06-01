@@ -6,7 +6,6 @@ function App() {
     <div>
       <Sidebar />
       <hero />
-      <Expenses />
     </div>
   );
 }
