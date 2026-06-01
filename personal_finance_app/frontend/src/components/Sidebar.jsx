@@ -1,48 +1,26 @@
-import { Link } from "react-router-dom";
+import "/Users/joenelson/Desktop/JoeNPortfolio/personal_finance_app/frontend/src/components/Sidebar.css";
 
 function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-white shadow-md p-6">
+    <nav className="sidebar">
+      <div className="nav-logo">
+        <strong>StudlyFinance</strong>
+      </div>
 
-      {/* Logo */}
-      <h1 className="text-2xl font-bold text-green-500 mb-10">
-        StudlyFinance
-      </h1>
+      <div className="nav-links">
+        <a href="/">Dashboard</a>
+        <a href="/expenses">Expenses</a>
+        <a href="/savings">Savings</a>
+        <a href="split bills">Split Bills</a>
+      </div>
 
-      {/* Navigation */}
-      <nav className="flex flex-col gap-4">
-
-        <Link
-          to="/"
-          className="bg-green-500 text-white px-4 py-3 rounded-xl"
-        >
-          Dashboard
-        </Link>
-
-        <Link
-          to="/expenses"
-          className="text-gray-700 hover:bg-gray-100 px-4 py-3 rounded-xl"
-        >
-          Expenses
-        </Link>
-
-        <Link
-          to="/savings"
-          className="text-gray-700 hover:bg-gray-100 px-4 py-3 rounded-xl"
-        >
-          Savings
-        </Link>
-
-        <Link
-          to="/split-bills"
-          className="text-gray-700 hover:bg-gray-100 px-4 py-3 rounded-xl"
-        >
-          Split Bills
-        </Link>
-
-      </nav>
-    </div>
+      <div className="nav-auth">
+        <a href="/login">Log In</a>
+        <a href="/register">Register</a>
+      </div>
+    </nav>
   );
 }
 
 export default Sidebar;
+
