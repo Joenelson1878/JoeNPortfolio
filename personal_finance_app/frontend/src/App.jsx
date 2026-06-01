@@ -4,7 +4,6 @@ function App() {
   return (
     <>
       <Sidebar />
-
       <main>
         <h1>Welcome to StudlyFinance</h1>
       </main>
