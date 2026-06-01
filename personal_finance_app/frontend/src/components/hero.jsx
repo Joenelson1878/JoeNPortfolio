@@ -1,4 +1,4 @@
-export default function hero() {
+function hero() {
     return (
         <section className="hero">
             <h1>Take control of your money</h1>
@@ -11,3 +11,4 @@ export default function hero() {
         </section>
     );
 }
+export default hero;
